@@ -1,12 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import List
-import logging
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[logging.StreamHandler()],
-)
+from logger import logging
 
 
 class Book:
